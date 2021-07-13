@@ -2,13 +2,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    height: 750px;
+    height: 600px;
 }
-h1{
+h1,b{
     font-size: 50px;
 }
 h2{
     font-size: 35px;
+}
+p{
+    color: lightslategrey;
 }
 .half-width{
     width: 40%;
@@ -39,4 +42,40 @@ h2{
 }
 .latest-sec{
     background-color: #f4f8f7;
+}
+.center-position{
+    margin-left: 20%;
+}
+.oneThird-width{
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    float: left;
+    margin: 20px;
+   
+}
+.oneThird-width img{
+    width: 344px;
+    height: 214px;
+}
+.blue-bg{
+    background-image: linear-gradient(45deg,#5D69E9,#4225B6);
+    color: white;
+    width: 700px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 600px;
+
+}
+.blue-bg a{
+    margin-left: 50px;
+}
+.inquiry{
+    margin-left: 100px;
+    padding-top: 40px;
+    margin-top: 70px;
+}
+footer{
+    text-align: center;
 }
